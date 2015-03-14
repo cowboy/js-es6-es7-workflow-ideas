@@ -1,10 +1,14 @@
 # JS / ES6 / ES7 Workflow Ideas
 
 I'm trying to figure out a good workflow to write code using all the fancy new
-features of ES6 and ES7, because ES5 (and even ES6) are a bit confining.
+features of ES6 and ES7, because ES5 (and even ES6) are a bit confining. Maybe I'll redo my personal website if I find a workflow that I like.
 
-This is a first pass; I'm not sure what I'm going to do long-term. Suggestions?
-File an issue! (and thanks)
+Also, note that this is a first pass; I'm not sure what I'm going to do
+long-term.
+
+Do you have a suggestion? Do you already have a fantastic ES6 / ES7 workflow?
+Please let me know by [filing an
+issue](https://github.com/cowboy/js-es6-es7-workflow-ideas/issues)!
 
 ## What I'm currently doing
 
@@ -15,5 +19,5 @@ File an issue! (and thanks)
 
 Eg.
 
-1. edit `src/index.js`
+1. edit [src/index.js](src/index.js)
 1. `grunt && node build/index.js`
