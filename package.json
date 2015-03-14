@@ -1,0 +1,17 @@
+{
+  "name": "js-es6-es7-workflow-ideas",
+  "version": "0.1.0",
+  "description": "JS / ES6 / ES7 Workflow Ideas",
+  "main": "build/index.js",
+  "author": "\"Cowboy\" Ben Alman (http://benalman.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-babel": "^4.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^4.7.12"
+  }
+}
