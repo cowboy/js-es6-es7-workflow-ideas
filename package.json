@@ -9,7 +9,8 @@
     "grunt": "^0.4.5",
     "grunt-babel": "^4.0.0",
     "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "source-map-support": "^0.2.10"
   },
   "dependencies": {
     "babel-runtime": "^4.7.12"

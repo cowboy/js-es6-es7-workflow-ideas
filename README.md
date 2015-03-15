@@ -19,5 +19,15 @@ issue](https://github.com/cowboy/js-es6-es7-workflow-ideas/issues)!
 
 Eg.
 
-1. edit [src/index.js](src/index.js)
-1. `grunt && node build/index.js`
+* edit [src/index.js](src/index.js)
+* `grunt && node build/index-debug.js` (stack traces use sourcemaps)
+* `grunt && node build/index.js` (stack traces don't use sourcemaps)
+
+## Files of note
+
+* **[src/index.js](src/index.js)** - the main entry point for this module.
+* **[src/index-debug.js](src/index-debug.js)** - this file first enables
+  sourcemaps via the
+  [source-map-support](https://github.com/evanw/node-source-map-support) npm
+  module, and then requires (and exports) [src/index.js](src/index.js). This
+  seems to be useful for debugging while in development.
