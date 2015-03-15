@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     babel: {
       options: {
-        sourceMap: true,
+        sourceMap: 'inline',
         experimental: true,
         optional: ['runtime'],
       },
