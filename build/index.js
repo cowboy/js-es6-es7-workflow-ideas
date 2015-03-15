@@ -4,13 +4,7 @@ var _core = require("babel-runtime/core-js")["default"];
 
 var _regeneratorRuntime = require("babel-runtime/regenerator")["default"];
 
-function getMsAfterDelay(ms) {
-  return new _core.Promise(function (resolve) {
-    setTimeout(function () {
-      resolve(ms);
-    }, ms);
-  });
-}
+var getMsAfterDelay = require("./timeout").getMsAfterDelay;
 
 function resultAfter(s) {
   var ms;

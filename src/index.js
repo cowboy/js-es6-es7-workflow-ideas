@@ -1,10 +1,4 @@
-function getMsAfterDelay(ms) {
-  return new Promise(resolve => {
-    setTimeout(() => {
-      resolve(ms);
-    }, ms);
-  });
-}
+import {getMsAfterDelay} from './timeout';
 
 async function resultAfter(s) {
   var ms = await getMsAfterDelay(1000 * s);
