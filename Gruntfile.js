@@ -8,9 +8,9 @@ module.exports = function(grunt) {
         optional: ['runtime'],
       },
       build: {
-        src: 'src/*.js',
+        src: '**/*.js',
         expand: true,
-        flatten: true,
+        cwd: 'src',
         dest: 'build',
       }
     },
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     },
     watch: {
       babel: {
-        files: ['<%= babel.build.src %>'],
+        files: ['src/**/*.js'],
         tasks: ['build'],
       }
     }
