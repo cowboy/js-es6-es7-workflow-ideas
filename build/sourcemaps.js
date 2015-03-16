@@ -1,0 +1,10 @@
+"use strict";
+
+var _interopRequireWildcard = require("babel-runtime/helpers/interop-require-wildcard")["default"];
+
+require("source-map-support").install();
+
+var index = _interopRequireWildcard(require("./index"));
+
+module.exports = index;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zb3VyY2VtYXBzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxPQUFPLENBQUMsb0JBQW9CLENBQUMsQ0FBQyxPQUFPLEVBQUUsQ0FBQzs7SUFFNUIsS0FBSyxtQ0FBTSxTQUFTOztpQkFDakIsS0FBSyIsImZpbGUiOiJzcmMvc291cmNlbWFwcy5qcyIsInNvdXJjZXNDb250ZW50IjpbInJlcXVpcmUoJ3NvdXJjZS1tYXAtc3VwcG9ydCcpLmluc3RhbGwoKTtcblxuaW1wb3J0ICogYXMgaW5kZXggZnJvbSAnLi9pbmRleCc7XG5leHBvcnQgZGVmYXVsdCBpbmRleDtcbiJdfQ==

@@ -1,11 +1,11 @@
 import {getMsAfterDelay} from './timeout';
 
-async function resultAfter(s) {
+export async function resultAfter(s) {
   var ms = await getMsAfterDelay(1000 * s);
   return `<${ms}>`;
 }
 
-async function doStuff() {
+export async function doStuff() {
   console.log('promises');
   var promises = [];
   for (let n of [1, 3, 2, 4]) {
@@ -24,4 +24,4 @@ async function doStuff() {
   console.log(results);
 }
 
-doStuff();
+doStuff(); // you wouldn't do this here if this was a proper lib

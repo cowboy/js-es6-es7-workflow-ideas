@@ -2,7 +2,7 @@
   "name": "js-es6-es7-workflow-ideas",
   "version": "0.1.0",
   "description": "JS / ES6 / ES7 Workflow Ideas",
-  "main": "build/index.js",
+  "main": "build/index",
   "author": "\"Cowboy\" Ben Alman (http://benalman.com/)",
   "license": "MIT",
   "devDependencies": {
